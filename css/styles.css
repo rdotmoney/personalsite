@@ -1,0 +1,149 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  line-height: 2;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bold;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 6px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Class Styles ~~~~~~~~~~~~~~~~~~~~*/
+.top-container {
+  background-color: #e3fdfd;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  top: 300px;
+}
+
+.middle-container {
+margin: 100px 0;
+}
+.profile-pic {
+ width: 250px; height: 250px;
+ border-radius: 50%;
+}
+
+.intro{
+width: 50%;
+margin: auto;
+}
+
+.profile {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.avatar {
+  width: 25%; height: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.swift {
+  width: 25%; height: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #71c9ce;
+  padding: 50px 0 50px;
+}
+
+.contact-me-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+	background-color:#71c9ce;
+	border-radius:28px;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.btn:hover {
+	background-color:#40514E;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.footer-link {
+  margin: 10px 20px;
+}
+.copyright {
+  color: #11999E;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
